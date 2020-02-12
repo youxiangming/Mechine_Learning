@@ -11,19 +11,19 @@
 	1. 预测值=w1*特征+b  
 		h(x)=w1*x+b
 	2. 假设以预测房价为模型，一套房屋则为一个样本  
-	样本(example)：  
-	 - 特征（feature）：  
-		1.房屋的面积（area）  
-		2.房屋的时间（data）  
-		3.房屋的位置（position）  
-		4.房屋的样式（shape）  
-		......等特征。  
-	 - 标签(lable)：房价(price)
+		样本(example)：    
+		  - 特征（feature）：  
+			1.房屋的面积（area）  
+			2.房屋的时间（data）  
+			3.房屋的位置（position）  
+			4.房屋的样式（shape）  
+			......等特征。  
+		  - 标签(lable)：房价(price)
   * 数据集(data_set)：多个样本的集合。  
-  	1. 训练数据集（training data set）  
-		 用来训练模型的参数，即 w1,b;  
-    2. 测试数据集（training set）  	
-		 用来验证模型的准确度。用未参与训练的数据进行测试
+	  1. 训练数据集（training data set）  
+			 用来训练模型的参数，即 w1,b;
+	  2. 测试数据集（training set）  	
+			 用来验证模型的准确度。用未参与训练的数据进行测试
   * 损失函数（Loss_Function）:
   	 误差（Loss）：真实值(y)与预测值(y')之间的差值。这里一般用一个非负数来表示
   	(凡是模型预测的都会有误差，所以我们用一个变量（Loss）来度量这个误差）
