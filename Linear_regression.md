@@ -12,13 +12,13 @@
 		h(x)=w1*x+b
 	2. 假设以预测房价为模型，一套房屋则为一个样本  
 	样本(example)：  
-	 -特征（feature）：  
+	 - 特征（feature）：  
 		1.房屋的面积（area）  
 		2.房屋的时间（data）  
 		3.房屋的位置（position）  
 		4.房屋的样式（shape）  
 		......等特征。  
-	 -标签(lable)：房价(price)
+	 - 标签(lable)：房价(price)
   * 数据集(data_set)：多个样本的集合。  
   	1. 训练数据集（training data set）  
 		 用来训练模型的参数，即 w1,b;  
