@@ -27,7 +27,10 @@
   * 损失函数（Loss_Function）:
   	 误差（Loss）：真实值(y)与预测值(y')之间的差值。这里一般用一个非负数来表示
   	(凡是模型预测的都会有误差，所以我们用一个变量（Loss）来度量这个误差）
-	计算公式：
-	 ![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png "RUNOOB")
+	计算公式：  
+	$$
+l^{(i)}(\mathbf{w}, b) = \frac{1}{2} \left(\hat{y}^{(i)} - y^{(i)}\right)^2,
+$$
+	
 
 	
