@@ -52,6 +52,6 @@
 	- 初始化模型参数，一般来说使用随机初始化；
 	- 我们在数据上迭代多次，通过在负梯度方向移动参数来更新每个参数,最终在损失函数最小的时候找到  
 	**此模型最好的权重与偏置**
-## [python代码的实现]()
+## [python代码的实现](https://github.com/youxiangming/Mechine_Learning/blob/master/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92python.ipynb)
 ## [pytorch版]()
 
